@@ -115,14 +115,14 @@ Edit `config/database.php`:
 define('DB_HOST', 'localhost');
 define('DB_NAME', 'sims_db');
 define('DB_USER', 'root');
-define('DB_PASS', 'your_password');
+define('DB_PASS', 'YOUR_PASSWORD');
 ```
 
 ### Step 3: Start Web Server
 
 **Option A: PHP Built-in Server**
 ```bash
-cd warped-planetary/public
+cd SIMS/public
 php -S localhost:8000
 ```
 
@@ -139,9 +139,9 @@ Navigate to: `http://localhost:8000/login.php`
 
 | Role | Email | Password |
 |------|-------|----------|
-| **MIS Manager** | admin@sims.edu | admin123 |
-| **Coordinator** | coordinator@sims.edu | admin123 |
-| **Teacher** | teacher@sims.edu | admin123 |
+| **MIS Manager** | admin@sims.edu | *[Change Me]* |
+| **Coordinator** | coordinator@sims.edu | *[Change Me]* |
+| **Teacher** | teacher@sims.edu | *[Change Me]* |
 
 > ⚠️ **IMPORTANT**: Change these passwords after first login in a production environment!
 
@@ -150,7 +150,7 @@ Navigate to: `http://localhost:8000/login.php`
 ## 📁 Project Structure
 
 ```
-warped-planetary/
+SIMS/
 ├── config/
 │   ├── database.php          # Database configuration
 │   └── security.php           # Security settings
@@ -261,3 +261,5 @@ This project is developed for academic purposes as part of a Secure Software Des
 ## 🙏 Acknowledgments
 
 Special thanks to **Allah Rakha** for comprehensive guidance on secure software development principles and best practices.
+
+
