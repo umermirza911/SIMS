@@ -261,5 +261,3 @@ This project is developed for academic purposes as part of a Secure Software Des
 ## 🙏 Acknowledgments
 
 Special thanks to **Allah Rakha** for comprehensive guidance on secure software development principles and best practices.
-
-
